@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-sep-2014, 19:25:28
+    Author     : Jose
+*/
+#jtdescripcion{
+                    font-size: 16px; 
+                    font-family: 'Open Sans Condensed', sans-serif; 
+                    font-weight: 500;
+                    outline:none;
+                    transition: all 0.75s ease-in-out;
+                    -webkit-transition: all 0.75s ease-in-out;
+                    -moz-transition: all 0.75s ease-in-out;
+                    border-radius:3px;
+                    -webkit-border-radius:3px;
+                    -moz-border-radius:3px;
+                    border:1px solid rgba(0,0,0, 0.2);
+                    color: #333;
+                    background-color:#eee;
+
+
+                    width: 60%;
+                    margin-bottom: 5px;
+                    padding: 5px;
+                    margin-top: 8px;
+                }
+                #jtdescripcion:focus {
+
+                    box-shadow: 0 0 5px #444;
+                    -webkit-box-shadow: 0 0 5px #444;
+                    -moz-box-shadow: 0 0 5px #444;
+                    border:1px solid #999;
+                    background-color:white;
+                }
+                #divBuscar #LoadRecordsButton:hover{
+                    background-color: #c30000;
+                }
+                #divBuscar #LoadRecordsButton {
+                    position: relative;
+                    width: 100px;
+                    margin: 8px auto;
+                    /*margin-left: 10px;*/
+                    margin-bottom: 5px;
+                    margin-left: 10px;
+                    padding: 5px;
+
+                    border-radius: 3px;
+                    border: 1px solid rgba(0,0,0,0.15);
+                    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+                    cursor: pointer;
+                    outline: none;
+                    background-color: #ab0000;
+                    /* Font settings */
+
+                    color: #fff;	
+                    font-size: 16px;
+                }
+                #divBuscar {
+                    border-radius: 3px;
+                    border: 1px solid rgba(0,0,0,0.15);
+                     padding: 5px;
+                }
+                #divBuscar span {
+                    border-radius: 3px;
+                    border: 1px none rgba(0,0,0,0.15);
+                     padding: 5px;
+                     font-size: 16px; 
+                    font-family: 'Open Sans Condensed', sans-serif; 
+                    font-weight: 500;
+                }
+
